@@ -1,2 +1,2 @@
 #!/bin/bash -l
-00 8 * * * export $(cat /root/root.env | xargs); /go/src/app/main
+* * * * * export $(cat /root/root.env | xargs); /go/src/app/main
