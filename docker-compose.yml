@@ -1,0 +1,9 @@
+version: '3'
+services:
+  crontest:
+    build:
+      dockerfile: ./Dockerfile
+    container_name: crontest
+    environment:
+      - MODE=DEVELOP
+    tty: true
